@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@media (min-width: 950px){
+    div{
+        display: flex;
+    }
+
+    div section{
+        flex: 1;
+    }
+}
+
+body{
+    margin: 0%;
+}
+
+header{
+    background: darkred;
+    color: white;
+    padding: 2px;
+    
+}
+body{
+    background-color:  rgb(240, 255, 23);
+}
+
+#info{
+    text-align: center; 
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+footer{
+    background: darkred ;
+    color: white;
+    padding: 2px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+main{
+    background-color: white;
+    margin: 5%;
+}
+
+div{
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+img {
+    width: 100%;
+    max-width: 900px;
+    display: block;
+    margin: 0 auto;
+}

@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+.la-belle-aurore-regular{
+  font-family: "La Belle Aurore", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+section{
+    color :black;
+    padding: 50px;
+}
+
+body{
+    display: grid;
+    padding-left: 20%;
+    padding-right: 20%;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-areas: 
+    "A   B  C"
+    "D  .   E"
+    "F  G   H"
+    "I  z   z"
+    "J  z   z"
+    ;
+}
+
+#A{
+    grid-area: A;
+    background: url(images/a.jpg) ;
+    background-size: cover;
+}
+#B{
+    grid-area:B;
+    background: url(images/b.webp) ;
+    background-size: cover;
+}
+#C{
+    grid-area: C;
+    background: url(images/c.jpg) ;
+    background-size: cover;
+    border-top-right-radius: 50px;
+}
+#D{
+    grid-area:D ;
+    background: url(images/d.jpg) ;
+    background-size: cover;
+}
+#E{
+    grid-area:E ;
+    background: url(images/e.jpg) ;
+    background-size: cover;
+}
+#F{
+    grid-area: F;
+    background: url(images/f.jpg) ;
+    background-size: cover;
+}
+#G{
+    grid-area:G ;
+    background: url(images/g.webp) ;
+    background-size: cover;
+}
+#H{
+    grid-area: H;
+    background: url(images/h.jpg) ;
+    background-size: cover;
+    border-bottom-right-radius: 50px;
+}
+#I{
+    grid-area: I;
+    background: url(images/i.jpg) ;
+    background-size: cover;
+}
+#J{
+    grid-area: J;
+    background: url(images/j.jpg) ;
+    background-size: cover;
+}
+#z{
+    grid-area: z;
+    background-size: cover;
+}

@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+header{
+    background-color: lightblue;
+    display: flex;
+    padding: 1%;
+    position: 1;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#info{
+    height: 100vh;
+}
+
+#TDK{
+    height: 100vh;
+}
+
+#A{
+    text-align: center;
+    padding-top: 20%;
+    padding-right: 30%;
+    padding-left: 30%;
+}
+
+#SGN{
+    height: 100vh;
+}
+

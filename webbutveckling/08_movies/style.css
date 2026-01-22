@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+section{
+    color:white; 
+    font: 20px verdana;
+    margin: 3px
+}
+
+body{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "A  A   A   B   B"  
+    "C  D   D   D   E" 
+    ;
+}
+
+
+#heat{
+    grid-area: A;
+    background: url(heistmovies/heat.jpg);
+    background-size: cover;
+}
+#usual{
+    grid-area: B;
+    background: url(heistmovies/usualsuspects.jpg);
+    background-size: cover;
+}
+#inside{
+    grid-area: C;
+    background: url(heistmovies/insideman.jpg);
+    background-size: cover;
+}
+#rififi{
+    grid-area: D;
+    background: url(heistmovies/rififi.jpg);
+    background-size: cover;
+}
+#bank{
+    grid-area: E;
+    background: url(heistmovies/bankjob.jpg);
+    background-size: cover;
+}

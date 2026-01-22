@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+
+
+body{
+    height: 100vh;
+    overflow: auto;
+}
+
+header span{
+    color: lightseagreen;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{ 
+    background: #444; 
+}
+
+
+header{
+    display: flex; 
+    align-items: center;
+    color: #eee;
+    background-color: #555; 
+    font-size: 20px;
+    font-family: biryani;
+    justify-content: space-between;
+    font-weight: bold;
+    width: 100%;
+    position: fixed;
+    position: 1;
+    padding-right: 10%;
+}
+
+#art{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;  
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: biryani;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#webdevs{
+    height: 100vh;
+    background-image: url(pexels-kevin-ku-577585.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;  
+}
+
+.A{
+    color: white;
+}
+
+.B{
+    color: lightseagreen;
+}
+
+.C{
+    color: black;
+}
+
+
+#about{
+    padding-left: 25%;
+    padding-right: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;
+    font-family: biryani;
+}
+
+
+
+#blog{
+    height: 100vh;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;
+    
+}
+
+
+
+#contact{
+    height: 100vh;
+    color: black;
+    margin-left:  25%;
+    margin-right: 25%;
+    font-size: 20px;
+    padding-top: 5%;
+}
+
+#hej{
+display: flex;
+justify-content: center;
+align-items: center;  
+text-align: center;
+}
+
+#US{
+    text-align: center;
+}
+
+
+footer{
+    background-color: #555;
+    color: white;
+    text-align: center;
+    padding: .5%;
+}
+
+footer p{
+    font-style: italic;
+}
+
+footer h2{
+    font-family: biryani;
+    font-style: bold;
+} 
+
+footer h4{
+    font-family: biryani;
+    font-style: bold;
+}
