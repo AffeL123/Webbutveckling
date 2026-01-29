@@ -20,7 +20,79 @@
     <br>
     <section id="how">
         <h1>how to make animations in HTML and CSS</h1>
-        <p>the text describes a red square and a blue ball that are animated using CSS. the square is 100x100 pixels in size and smoothly grows to 125x125 pixels when the mouse hovers over it due to a transition. the ball is round, blue, and moves automatically back and forth horizontally using an animation that repeats over and over again. the animation is controlled by keyframes that move the ball from left to right and back again.</p>
+        <p>The code uses CSS to animate a square and a ball. The red square starts at 100x100 pixels and smoothly grows larger when the mouse hovers over it. The blue ball is a circle that moves automatically from left to right and back again using a repeating CSS animation with smooth motion.</p>
+
+        <h3>How to make it (the code)</h3>
+
+        <p>.cube {
+            width: 100px;
+            <br>
+            height: 100px;
+            <br>
+            background-color: red;
+            <br>
+            transition: width 2s, height 2s, transform 2s;
+            <br>
+        }
+        
+        <br>
+        .cube:hover {
+              <br>
+              width:125px;
+              <br>
+              height: 125px; 
+              <br>
+            }
+            <br>
+            <br>
+            <br>
+            
+            .ball {
+                <br>
+                width: 40px;
+                <br>
+                height: 40px;
+                <br>
+                background: blue;
+                <br>
+                border-radius: 50%;
+                <br>
+                position: absolute;
+                <br>
+                animation: moveBall 2s ease-in-out infinite alternate;
+                <br>
+            }
+            <br>
+            <br>
+            
+            @keyframes moveBall {
+                <br>
+                from {
+                    <br>
+                    left: 0;
+                    <br>
+                }
+                <br>
+                to {
+                    left: 360px;
+                }
+            }
+            <br>
+            <br>
+            
+            #how{
+              <br>
+              background-color: lightblue;
+              <br>
+              padding: 3px;
+              <br>
+              border-radius: 15px;
+              <br>
+            }
+            <br>
+
+        
+        </p>
     </section>
 </body>
 </html>
