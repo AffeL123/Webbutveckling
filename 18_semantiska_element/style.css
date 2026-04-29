@@ -1,7 +1,18 @@
 @charset "UTF-8";
 
+
+:root{
+    --bg-dark: rgb(0, 0, 0);
+    --bg-light:  rgb(255, 255, 255);
+    --nav-color:  rgb(0, 255, 38);
+    --header-light: rgb(155, 155, 155);
+    --header-dark: rgb(0, 0, 0);
+}
+
+
+
 header{
-    background-color: rgb(137, 137, 137);
+    background-color: var(--header-light);
     padding: 5px;
     position: fixed;
     top: 0;
@@ -17,5 +28,7 @@ article{
     padding-right: 20%;
     padding-top: 25%;
 }
+
+
 
 
