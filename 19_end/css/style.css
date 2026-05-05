@@ -68,3 +68,10 @@ article{
 #min{
    width: 500px;
 }
+
+footer{
+    background:rgba(0,0,0,0.5);
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+}

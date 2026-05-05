@@ -46,7 +46,8 @@ h2{
 } 
 
 footer{
-    background:rgba(0,0,0,0.3);
-    padding: 2%;
+    background:rgba(0,0,0,0.5);
+    padding: 1%;
     text-align: center;
+    text-decoration: none;
 }
