@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+
+body{
+    background: url(/images/about/Dirt_29_JE1_BE1.webp);
+    margin: 0;
+    color: white;
+}
+
+header{
+    display: flex; 
+    align-items: center;
+    background: url(/images/about/968302027569f14e3e58cb3de44ec090.jpg);
+    font-size: 20px;    
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    position: 0;
+}
+
+header h1{
+    padding-left: 3%;
+}
+
+header nav{
+    padding-right: 1%;
+}
+
+nav a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{ 
+    background: rgba(0,0,0,0.3);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+article{
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: rgba(0,0,0,0.45);
+    border-radius: 15px;
+    padding: 0.5%;
+}
+
+#cr{
+    padding-top: 11%;
+    text-align: center;
+}
+
+
+#why{
+    padding-top: 25%;
+    text-align: center;
+    padding-bottom: 25% ;
+}
+
+
+#what{
+    text-align: center;
+    padding-bottom: 25% ;
+}
+
+
+#min{
+   width: 500px;
+}
+
+footer{
+    background:rgba(0,0,0,0.5);
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+}
