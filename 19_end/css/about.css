@@ -2,7 +2,7 @@
 
 
 body{
-    background: url(/images/about/Dirt_29_JE1_BE1.webp);
+    background: url(/19_end/images/about/Dirt_29_JE1_BE1.webp);
     margin: 0;
     color: white;
 }
@@ -10,7 +10,7 @@ body{
 header{
     display: flex; 
     align-items: center;
-    background: url(/images/about/968302027569f14e3e58cb3de44ec090.jpg);
+    background: url(/19_end/images/about/968302027569f14e3e58cb3de44ec090.jpg);
     font-size: 20px;    
     justify-content: space-between;
     width: 100%;
